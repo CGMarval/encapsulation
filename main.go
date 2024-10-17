@@ -8,11 +8,11 @@ import (
 
 func main() {
 	Go := &course.Course{
-		"GO desde Cero",
-		12.34,
-		false,
-		[]uint{12, 56, 89},
-		map[uint]string{
+		Name:    "GO desde Cero",
+		Price:   12.34,
+		IsFree:  false,
+		UserIDs: []uint{12, 56, 89},
+		Classes: map[uint]string{
 			1: "Introducción",
 			2: "Estructuras",
 			3: "Maps",
