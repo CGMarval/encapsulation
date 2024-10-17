@@ -1,8 +1,9 @@
 package main
 
 import (
-	"curso-poo-go/course"
 	"fmt"
+
+	"github.com/CGMarval/encapsulation/course"
 )
 
 func main() {
